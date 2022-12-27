@@ -1,0 +1,24 @@
+|LAB3_129
+U <= LAB3:inst.U
+A => LAB3:inst.A
+B => LAB3:inst.B
+C => LAB3:inst.C
+D => LAB3:inst.D
+V <= LAB3:inst.V
+
+
+|LAB3_129|LAB3:inst
+A => U.IN0
+A => U.IN0
+A => V.IN0
+A => U.IN0
+B => U.IN1
+B => U.IN1
+C => U.IN1
+C => U.IN1
+C => V.IN1
+D => U.IN1
+U <= U.DB_MAX_OUTPUT_PORT_TYPE
+V <= V.DB_MAX_OUTPUT_PORT_TYPE
+
+
